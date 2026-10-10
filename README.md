@@ -2,8 +2,6 @@
 
 A Spring Boot proof of concept that explores how encrypted payment instructions could travel across a simulated Bluetooth-style mesh when devices do not have internet access, then reach a backend through a connected bridge device.
 
-> **Important:** This is an educational simulation, not a real UPI application. The mesh is simulated in Java; it does not implement Bluetooth Low Energy (BLE) radio communication or connect to NPCI/bank infrastructure.
-
 ## Table of Contents
 
 - [Overview](#overview)
