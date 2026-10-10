@@ -221,8 +221,6 @@ mvn spring-boot:run
 
 If the project includes the Maven Wrapper, use `mvnw.cmd` on Windows or `./mvnw` on macOS/Linux.
 
-> The uploaded source archive did not include `src/main/resources`, the dashboard template, or test source files. Make sure to include those from your complete Eclipse project. Also check `application.properties` for the intended database configuration before running.
-
 ## Data Model
 
 ### `Account`
