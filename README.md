@@ -108,8 +108,6 @@ The SHA-256 hash of the ciphertext is used as the idempotency key. `ConcurrentHa
 
 The ingestion service rejects old packets and packets dated more than five minutes into the future. Account entities use JPA `@Version` optimistic locking, and settlement runs in a database transaction.
 
-> These are prototype safeguards, not a complete production payment-security design. See [Limitations and Future Work](#limitations-and-future-work).
-
 ## Technology Stack
 
 | Technology | Purpose |
